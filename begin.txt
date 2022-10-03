@@ -1,1 +1,22 @@
-I am a boy.
+ruikeyuan@MacBook-Air pixiDemo % echo "# pixiDemo" >> README.md
+ruikeyuan@MacBook-Air pixiDemo % git init
+Reinitialized existing Git repository in /Users/ruikeyuan/Documents/GitHub/pixiDemo/.git/
+ruikeyuan@MacBook-Air pixiDemo % git add README.md
+ruikeyuan@MacBook-Air pixiDemo % git commit -m "first commit"
+[master 88bdbd2] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+ruikeyuan@MacBook-Air pixiDemo % git branch -M main
+ruikeyuan@MacBook-Air pixiDemo % git remote add origin https://github.com/ruikeyuan1/pixiDemo.git
+error: remote origin already exists.
+ruikeyuan@MacBook-Air pixiDemo % git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 465 bytes | 465.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ruikeyuan1/pixiDemo.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+ruikeyuan@MacBook-Air pixiDemo % 
